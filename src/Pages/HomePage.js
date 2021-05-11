@@ -1,8 +1,8 @@
 import React from 'react';
 import { fontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTweeter } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaTwitter } from 'react-icons/fa';
+import { FaBeer } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
@@ -17,13 +17,13 @@ function HomePage() {
                 </p>
                 <div className="icons">
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={faTweeter} className="icon tw" />
+                        <fontAwesomeIcon icon={FaTwitter} className="icon tw" />
                     </Link>
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={faGithub} className="icon gh" />
+                        <fontAwesomeIcon icon={FaBeer} className="icon gh" />
                     </Link>
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={faLinkedin} className="icon ln" />
+                        <fontAwesomeIcon icon={FaLinkedin} className="icon ln" />
                     </Link>
                 </div>
             </header>
