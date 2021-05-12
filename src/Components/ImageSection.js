@@ -10,7 +10,9 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am <span>George Mwangi</span></h4>
                 <p className="about-text">
-                    Lorcdcj qdhcn sc jbj jjbjdjdkj sdcjbcbcj sdbbjbjbj bjbcjbcvbuh ebhdbjbjbjbjb
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
+                    Desir per po la ta doso vi slone ve?
                 </p>
                 <div className="about-details">
                     <div className="left-section">

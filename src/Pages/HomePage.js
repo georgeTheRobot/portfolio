@@ -1,8 +1,8 @@
 import React from 'react';
 import { fontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaTwitter } from 'react-icons/fa';
-import { FaBeer } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
@@ -13,17 +13,20 @@ function HomePage() {
                     Hi, I am <span>George Mwangi.</span>
                 </h1>
                 <p className="h-sub-text">
-                    Loren ipsum fsfsdffwefedewfdewfewdfewfewfewdDEWFEWFEWFEWFEWFEFEWFEWFEW
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
+                    quibusdam. Blanditiis doloremque nemo ex facilis neque. 
+                    A sint ipsam earum nemo omnis et.
                 </p>
                 <div className="icons">
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={FaTwitter} className="icon tw" />
+                        <fontAwesomeIcon icon={faFacebook} className="icon fb" />
                     </Link>
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={FaBeer} className="icon gh" />
+                        <fontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
                     <Link to="test" className="icon-holder">
-                        <fontAwesomeIcon icon={FaLinkedin} className="icon ln" />
+                        <fontAwesomeIcon icon={faYoutube} className="icon yt" />
                     </Link>
                 </div>
             </header>
